@@ -9,7 +9,7 @@ public final class StripRules {
      */
     public static final int STRIP_WIDTH = 3;
 
-    public static final int BIOME_SCALE = 4; // 2 = ~half-size biomes, 4 = ~quarter-size
+    public static final int BIOME_SCALE = 6; // 2 = ~half-size biomes, 4 = ~quarter-size
 
     public static final float YAW = -90.0f;
 
