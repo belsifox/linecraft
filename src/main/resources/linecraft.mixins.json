@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "tv.belsi.linecraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WorldSetBlockStateMixin",
+    "NoiseChunkGeneratorMixin",
+    "WorldChunkSetBlockStateMixin",
+    "ProtoChunkSetBlockStateMixin",
+    "MultiNoiseBiomeSourceScaleMixin",
+    "MinecraftServerSpawnMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
