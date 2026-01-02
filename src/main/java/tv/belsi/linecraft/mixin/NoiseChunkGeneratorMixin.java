@@ -37,7 +37,8 @@ public abstract class NoiseChunkGeneratorMixin {
             Chunk chunk,
             CallbackInfoReturnable<CompletableFuture<Chunk>> cir
     ) {
-        cir.setReturnValue(cir.getReturnValue().thenApply(NoiseChunkGeneratorMixin::wipeOutsideStrip));
+        CompletableFuture<Chunk> original = cir.getReturnValue();
+        cir.setReturnValue(original.thenApply(NoiseChunkGeneratorMixin::wipeOutsideStrip));
     }
 
     @Unique

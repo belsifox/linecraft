@@ -1,5 +1,8 @@
 package tv.belsi.linecraft;
 
+/**
+ * Config / consts
+ */
 public final class StripRules {
     private StripRules() {
     }
