@@ -110,7 +110,7 @@ jobs:
             VERSION="dev-${GITHUB_RUN_NUMBER}-${SHORT_SHA}"
             VERSION_TYPE="alpha"
             NAME="Dev build ${SHORT_SHA}"
-            git log --no-merges x/--pretty=format:"- %s (%h)" -n 1 > CHANGELOG_RELEASE.md
+            git log --no-merges --pretty=format:"- %s (%h)" -n 1 > CHANGELOG_RELEASE.md
           fi
 
           echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
