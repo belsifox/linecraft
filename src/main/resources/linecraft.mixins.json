@@ -7,7 +7,6 @@
     "NoiseChunkGeneratorMixin",
     "WorldChunkSetBlockStateMixin",
     "ProtoChunkSetBlockStateMixin",
-    "MultiNoiseBiomeSourceScaleMixin",
     "MinecraftServerSpawnMixin"
   ],
   "injectors": {
