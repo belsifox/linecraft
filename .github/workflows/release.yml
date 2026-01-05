@@ -134,7 +134,7 @@ jobs:
 
           # What to upload
           files: |
-            dist/*.jar
+            dist/linecraft-*[!s].jar
 
           # Versioning + changelog
           name: ${{ steps.mrmeta.outputs.name }}
