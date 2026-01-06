@@ -5,11 +5,11 @@
   "name": "linecraft",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "BelsiFox"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/mod/linecraft-mod/",
+    "sources": "https://https://github.com/belsifox/linecraft"
   },
   "license": "MIT",
   "icon": "assets/linecraft/icon.png",
@@ -26,7 +26,7 @@
     "linecraft.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.18.4",
+    "fabricloader": ">=0.18.3",
     "minecraft": "~1.21.11",
     "java": ">=21",
     "fabric-api": "*"
