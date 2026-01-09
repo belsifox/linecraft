@@ -3,7 +3,7 @@
   "id": "linecraft",
   "version": "${version}",
   "name": "linecraft",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Experience Minecraft in a **3-block wide line**! Across all dimensions, blocks will only generate (and be placeable) inside the line.",
   "authors": [
     "BelsiFox"
   ],
